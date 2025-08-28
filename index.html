@@ -12,12 +12,14 @@
     <title>Home Page of holy tech</title>
     <!-- bootstrap link -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!-- link for icons -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
       <!-- css styling -->
        <style>
         .Navbar-brand{
             font-size: 30px;
             text-decoration: none;
-            display: flex;
             align-items:last baseline ;
         }
         .hero{
@@ -37,6 +39,15 @@
             background-color: orange;
             padding: 10px;
             border-radius: 10px;
+        }
+        details:hover{
+            background:darkred ;
+            border-radius: 10px;
+            padding: 5px;
+            color: aliceblue;
+        }
+        details{
+            transition: 1.5s;
         }
        </style>
 </head>
@@ -67,13 +78,13 @@
                     <a href="#" class="nav-link dropdown-toggle text-light btn btn-outline-info  me-5" data-bs-toggle="dropdown" role="button">Technology </a>
                        <ul class="dropdown-menu">
                               <h5 class="text-center">Technology use by holy-tech</h5>
-                            <li><a href="gadgets.html" class="dropdown-item">HTML</a></li>
+                            <li><a href="#" class="dropdown-item">HTML</a></li>
                             <hr class="m-3"/>
-                            <li><a href="#Laptops" class="dropdown-item">CSS</a></li>
+                            <li><a href="#" class="dropdown-item">CSS</a></li>
                             <hr class="m-3"/>
-                            <li><a href="gadgets.html" class="dropdown-item">JavaScript</a></li>
+                            <li><a href="#" class="dropdown-item">JavaScript</a></li>
                             <hr class="m-3">
-                            <li><a href="" class="dropdown-item">Bootstrap</a></li>
+                            <li><a href="#" class="dropdown-item">Bootstrap</a></li>
                        </ul>
                     </li>
                 </ul>
@@ -115,59 +126,77 @@
             <div class="container">
                 <h3 class="text-primary text-center"><sup>Services:</sup> <sub>What we offer</sub></h3>
                 <div class="row">
-                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;"> <b>Web & mobile development</b></div>
-                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;"> <b> Custom software for churches/NGOs</b></div>
-                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;"> <b>Faith-based digital products</b> </div>
-                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;"> <b>UI/UX design & consultation</b> </div>
-                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;"> <b>Tech mentorship for youths</b> </div>
-                </div>
-                <div class="row">
-                    <div class="col p-4 text-center" >
+                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;">
+                        <img src="images/laptop-2620118_1280.jpg" alt="" width="120px" height="100PX" class="mb-3" style="border-radius: 10px; object-fit: cover;">
+                        <br/>
+                        <b>Web & mobile development</b>
+                        <div class="col p-4 text-center">
                         <a href="" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">view</a>
                             <ul class="dropdown-menu">
                                 <hr class="m-3"/>
                                 <li class="dropdown-item text-center text-info">We build responsive websites <br/> and mobile apps tailored to your <br/> business needs, using the latest technologies</li>
                                 <hr class="m-3"/>
                             </ul>
+                        </div>
                     </div>
-                    <div class="col p-4 text-center"> 
+                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;">
+                        <img src="images/church/church-3.webp" alt="" width="130px" height="130px" style="border-radius: 40px; object-fit: contain;">
+                        <br/>
+                        <b> Custom software for churches/NGOs</b>
+                        <div class="col p-4 text-center"> 
                         <a href="" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">view</a>
                             <ul class="dropdown-menu">
                                 <hr class="m-3"/>
                                 <li class="dropdown-item text-center text-info">Empowering youths, women,<br/> and professionals  through practical  <br/> training in software development, <br/> design, and digital literacy</li>
                                 <hr class="m-3"/>
                             </ul> 
+                        </div>
                     </div>
-                    <div class="col p-4 text-center"> 
+                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;"> 
+                        <img src="images/artificial-intelligence-3382507_1280.jpg" alt="" width="120px" height="110px" class="mb-3" style="border-radius: 10px; object-fit: cover;">
+                        <br/>
+                        <b>Faith-based digital products</b> 
+                          <div class="col p-4 text-center"> 
                         <a href="" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">view</a>
                         <ul class="dropdown-menu">
                                 <hr class="m-3"/>
                                 <li class="dropdown-item text-center text-info">Get expert advice on optimizing  your tech <br/>  infrastructure, tools, <br/> and digital strategies for success.</li>
                                 <hr class="m-3"/>
                             </ul>
+                        </div>
                     </div>
-                    <div class="col p-4 text-center"> 
-                        <a href="" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">view</a>
-                        <ul class="dropdown-menu">
-                            <hr class="m-3"/>
-                            <li class="dropdown-item text-info text-center">Launch and manage your  online <br/> store with our secure and scalable  <br/> e-commerce platforms.</li>
-                            <hr class="m-3" />
-                        </ul>  
+                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;">
+                        <img src="images/ordi_2.webp" alt="" width="130px" height="140px" style="border-radius: 10px; object-fit: contain;">
+                        <br/> 
+                        <b>UI/UX design & consultation</b>
+                        <div class="col p-4 text-center"> 
+                            <a href="" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">view</a>
+                            <ul class="dropdown-menu">
+                                <hr class="m-3"/>
+                                <li class="dropdown-item text-info text-center">Launch and manage your  online <br/> store with our secure and scalable  <br/> e-commerce platforms.</li>
+                                <hr class="m-3" />
+                            </ul>  
+                        </div> 
                     </div>
-                    <div class="col p-4 text-center"> 
-                        <a href="" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">view</a>
-                        <ul class="dropdown-menu">
-                            <hr class="m-3"/>
-                            <li class="dropdown-item text-center text-info">We help you build a strong <br/> digital brand through creative design, content, <br/>  and social media management.</li>
-                            <hr class="m-3"/>
-                        </ul> 
+                    <div class="col m-3 p-4 text-center" style="background-color: whitesmoke; border-radius: 10px;">
+                        <img src="images/mentorship.jpg" alt=""  class="mb-3" width="120px" height="100px" style="border-radius: 10px; object-fit: cover;"> 
+                        <br/>
+                        <b>Tech mentorship for youths</b> 
+                        <div class="col p-4 text-center"> 
+                            <a href="" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">view</a>
+                            <ul class="dropdown-menu">
+                                <hr class="m-3"/>
+                                <li class="dropdown-item text-center text-info">We help you build a strong <br/> digital brand through creative design, content, <br/>  and social media management.</li>
+                                <hr class="m-3"/>
+                            </ul> 
+                        </div>
                     </div>
                 </div>
             </div>
         </article>
         <!--Article contact  section  -->
         <article>
-            <div class="container p-3" style="background-color: aliceblue; border-radius: 10px;">
+            <div class="container p-3 mt-5" style="background-color: aliceblue; border-radius: 10px;">
                 <h2 class="text-center text-primary mt-5">Get in Touch / Contact Us</h2>
                 <div class="row d-flex justify-content-center" >
                     <label for="name" class="mt-3 mb-3" style="margin-left:200px ;" >Name:</label>
@@ -212,6 +241,58 @@
                 </div>
                 <div class="row d-flex justify-content-center">
                     <a href="project.html" class="text-center btn btn-outline-success m-5" style="width: 20%;"> <b>View more</b></a>
+                </div>
+            </div>
+        </article>
+        <!--BLOG / NEWS SECTION – Structure & Content  -->
+        <article>
+            <h2 class="text-primary text-center">Holy-Tech Journal</h2>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col bg-light m-2" style="border-radius: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-laptop mt-4" viewBox="0 0 16 16">
+                        <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+                        </svg>
+                        <h5 class="text-info"> Tech + Faith</h5>
+                        <p><b> Articles on:</b></p>
+                        <p> How faith inspires innovation.</p>
+                        <p>How faith inspires innovation.</p>
+                        <p>Using digital tools to spread the Gospel.</p>
+                        <p>Spiritual discipline for digital creators.</p>
+                        <summary style="list-style-type: none;" class="mt-4">
+                            <details>
+                                <b>- “Introducing HolyPOS: Our First App for Ministry Shops” <br/>  - “Our Journey So Far - One Year of Holy-Tech”</b>
+                            </details>
+                        </summary>
+                    </div>
+                    <div class="col bg-light m-2" style="border-radius: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-people-fill mt-4" viewBox="0 0 16 16">
+                        <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                        </svg>
+                        <h5 class="text-info">  Christian Leadership in Tech</h5>
+                        <p><b>Topics:</b></p>
+                        <p> Leading tech teams with biblical values.</p>
+                        <p>Integrity in digital entrepreneurship.</p>
+                        <p> Testimonies of Christian tech leaders.</p> 
+                        <summary style="list-style-type: none;" class="mt-5"> 
+                            <details>
+                                <b> - “Raising Tech Leaders Who Follow Christ” <br/> - “The Power of Purpose-Driven Innovation”</b>
+                            </details>
+                        </summary>
+                    </div>
+                    <div class="col bg-light m-2 " style="border-radius: 10px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-book-fill mt-4" viewBox="0 0 16 16">
+                        <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                        </svg>
+                        <h5 class="text-info">Youth Inspiration & Digital Innovation</h5>
+                        <p><b> Articles to:</b></p>
+                        <p>Encourage young people to build in tech.</p>
+                        <p>Share training resources, bootcamps, mentorship.</p>
+                        <p>Give testimonies and success stories.</p>
+                        <summary style="list-style-type: none;" class="mt-4">
+                            <details> <b> - “Young, Called, and Coding: Why You Matter” <br/> - “Your First Website as a Youth: Where to Start?” </b> </details>
+                        </summary>
+                    </div>
                 </div>
             </div>
         </article>
